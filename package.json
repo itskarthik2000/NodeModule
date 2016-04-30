@@ -1,0 +1,23 @@
+{
+  "name": "nodemodule",
+  "version": "1.0.0",
+  "description": "Node module test",
+  "main": "index.js",
+"scripts": {
+  "test": "mocha ./tests/index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itskarthik2000/NodeModule.git"
+  },
+  "author": "Karthik <itskarthik2000@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itskarthik2000/NodeModule/issues"
+  },
+  "homepage": "https://github.com/itskarthik2000/NodeModule#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
